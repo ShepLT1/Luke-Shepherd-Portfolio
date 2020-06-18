@@ -6,8 +6,8 @@ body {
 
 header {
 
-    height: 75px;
-    border-bottom: rgb(136, 3, 3) 2px solid;
+    height: 80px;
+    border-bottom: rgb(110, 1, 1) 2px solid;
     background-color: rgb(34, 34, 34);
     display: flex;
     align-items: center;
@@ -19,11 +19,12 @@ header {
 
 h1 {
 
-    background-color: rgb(128, 94, 3, 0.3);
+    border-left: rgb(155, 123, 36) 2px solid;
+    box-shadow: -2px 0 rgb(110, 1, 1);
     color: rgb(233, 231, 231);
-    border-bottom: rgb(136, 3, 3) 2px solid;
-    height: 75px;
-    width: 320px;
+    font-size: 200%;
+    height: 40px;
+    width: 240px;
     margin-bottom: 0;
     margin-top: 0;
     margin-left: 5%;
@@ -41,7 +42,7 @@ nav {
 
 nav li {
 
-    border-right: rgb(136, 3, 3) 2px solid;
+    border-right: rgb(110, 1, 1) 2px solid;
     height: 25px;
     display: flex;
     align-items: center;
@@ -56,7 +57,7 @@ nav a {
 
 nav a:hover {
 
-    color: rgb(168, 145, 80);
+    color: rgb(168, 147, 90);
 
 }
 
