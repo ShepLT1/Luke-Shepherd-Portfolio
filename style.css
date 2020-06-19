@@ -1,32 +1,21 @@
-html {
-
-    width: 100%
-
-}
-
 body {
 
-    background-color: rgb(90, 90, 90);
-
-}
-
-.container-fluid {
-
-    width: 100%;
+    background-color: rgb(71, 71, 71);
 
 }
 
 header {
 
     height: 80px;
-    border-bottom: rgb(110, 1, 1) 2px solid;
+    border-bottom: rgb(110, 1, 1) 2px groove;
     background-color: rgb(34, 34, 34);
     display: flex;
     align-items: center;
-    padding: 0;
+    padding: 0 1.5%;
     margin: 0;
 
 }
+
 
 h1 {
 
@@ -35,19 +24,17 @@ h1 {
     color: rgb(233, 231, 231);
     font-size: 200%;
     height: 40px;
-    width: 240px;
+    width: 245px;
     margin-bottom: 0;
     margin-top: 0;
-    margin-left: 5%;
+    padding-left: 15px;
     display: flex;
     align-items: center;
-    justify-content: center;
 
 }
 
 nav {
 
-    margin-right: 5%;
     width: 265px;
     float: right;
 
@@ -92,33 +79,42 @@ nav a:hover {
 
 }
 
-.about-container {
+.content-row {
+
+    width: 600px;
+    margin: 0;
+    padding: 0 15px 0 10px;
+
+}
+
+.content-container {
 
     background-color: rgb(34, 34, 34);
-    border: rgb(110, 1, 1) 2px solid;
-    margin-left: 2.5%;
+    border: rgb(110, 1, 1) 2px ridge;
     margin-top: 30px;
+    margin-left: 1.5%;
+    width: 600px;
 
 }
 
 h2 {
 
     color: rgb(233, 231, 231);
-    margin: 20px 15px 0 15px;
-    padding-bottom: 20px;
-    border-bottom: rgb(194, 159, 63) 2px solid;
+    margin: 25px 30px 25px 30px;
+    padding-bottom: 25px;
+    border-bottom: rgb(194, 159, 63) 2px groove;
 
 }
 
 .about-p1 {
 
-    margin: 20px 0 0 0;
+    margin: 0 15px;
 
 }
 
 .about-p2 {
 
-    margin: 20px 0 30px 0;
+    margin: 20px 15px 30px 15px;
 
 }
 
@@ -143,5 +139,44 @@ p {
 
     display: flex;
     flex-wrap: nowrap;
+
+}
+
+.col-md-6 img {
+
+    width: 250px;
+    margin-bottom: 35px;
+
+}
+
+.center {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.margin-top {
+
+    margin-top: 10px;
+
+}
+
+.text-box {
+
+    background-color: rgb(51, 0, 0);
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 125px;
+
+}
+
+.text {
+
+    color: rgb(233, 231, 231);
+    margin: 5px;
+    font-size: 135%;
 
 }
