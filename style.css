@@ -4,12 +4,13 @@ body {
 
 }
 
-.main-container {
+.page-container {
 
     min-height: 100vh;
     width: 100%;
     
 }
+
 
 header,footer {
 
@@ -67,12 +68,48 @@ nav li {
 
 nav a {
 
-    color: rgb(233, 231, 231);;
+    color: rgb(233, 231, 231);
 
 }
 
 nav a:hover {
 
+    color: rgb(201, 170, 87);
+
+}
+
+.dropleft {
+
+    display: none;
+    float: right;
+    width: 50px;
+
+}
+
+.dropleft img {
+
+    border: rgb(175, 139, 40) 1px solid;
+    background-color: rgb(71, 71, 71);
+
+}
+
+.dropdown-menu {
+
+    background-color: rgb(71, 71, 71, 0.9);
+    min-width: 9rem;
+    font-size: 1.5rem;
+
+}
+
+.dropdown-menu a {
+
+    color: rgb(233, 231, 231);
+
+}
+
+.dropdown-menu a:hover {
+
+    background-color: rgba(56, 56, 56, 0.9);
     color: rgb(201, 170, 87);
 
 }
@@ -86,18 +123,6 @@ nav a:hover {
 .no-right-padding {
 
     padding-right: 0;
-
-}
-
-.no-left-padding {
-
-    padding-left: 0;
-
-}
-
-.no-padding {
-
-    padding: 0;
 
 }
 
@@ -162,15 +187,6 @@ p {
 
 }
 
-.img-container {
-
-    width: 100%;
-    margin-bottom: 35px;
-    display: flex;
-    justify-content: center;
-
-}
-
 .col-md-6 img {
 
     width: 100%;
@@ -182,7 +198,8 @@ p {
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 0 15px;
+    margin: 0 15px 35px 15px;
+    width: 100%;
     max-width: 253px;
 
 }
@@ -199,7 +216,7 @@ p {
     width: 100%;
     height: 50px;
     position: absolute;
-    bottom: 40px;
+    bottom: 8px;
     display: flex;
     align-self: flex-end;
     justify-content: center;
@@ -237,6 +254,22 @@ form {
 
 }
 
+.form-control:valid {
+
+    background-color: rgb(53, 53, 53);
+    color: rgb(233, 231, 231);
+    box-shadow: 0 0 2px 2px black;
+
+}
+
+.form-control:focus {
+
+    background-color: rgb(53, 53, 53);
+    color: rgb(233, 231, 231);
+    box-shadow: 0 0 2px 2px black;
+
+}
+
 button {
 
     border: none;
@@ -264,14 +297,25 @@ button {
 
     .text-box {
 
-        height: 20%;
+        height: 25%;
 
     }
-
 
 }
 
 @media screen and (max-width: 640px) {
+
+    .dropleft {
+
+        display: block;
+    
+    }
+
+    nav {
+
+        display: none;
+
+    }
 
     .content-container {
 
@@ -300,7 +344,7 @@ button {
 
     .text-box {
 
-        height: 20%;
+        height: 25%;
 
     }
 

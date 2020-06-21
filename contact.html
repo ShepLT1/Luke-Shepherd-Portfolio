@@ -16,7 +16,7 @@
 
     <body>
         
-        <div class="container-fluid  main-container">
+        <div class="container-fluid page-container">
 
             <header class="row no-wrap">
 
@@ -48,61 +48,81 @@
 
                     </nav>
 
-                </div>
-
-            </header>
-
-            <section class="content-container">
-
-                <div class="row">
-
-                    <div class="col-md-12">
-
-                        <h2>Contact</h2>
-
-                    </div>
-
-                    <div class="row content-row">
-
-                        <div class="col-md-12">
-
-                            <form>
-                                
-                                <div class="form-group">
-                                  
-                                    <label for="exampleFormControlInput1">Name</label>
-                                  
-                                    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="John Smith">
-                                
-                                </div>
-
-                                <div class="form-group">
-                                    
-                                    <label for="exampleFormControlInput1">Email address</label>
-                                    
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                                  
-                                </div>
-                                
-                                <div class="form-group">
-                                  
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                  
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                
-                                </div>
-
-                                <button type="Submit" class="mb-2">Submit</button>
-                              
-                            </form>
-
+                    <div class="btn-group dropleft">
+                        
+                        <img src="Assets/Images/dropdown-icon.png" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" alt="dropdown menu icon">
+                        
+                        <div class="dropdown-menu">
+                            
+                            <a class="dropdown-item" href="index.html">About</a>
+                        
+                            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                            
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                        
                         </div>
 
                     </div>
 
                 </div>
 
-            </section>
+            </header>
+
+            <main>
+
+                <article class="content-container">
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <h2>Contact</h2>
+
+                        </div>
+
+                        <div class="row content-row">
+
+                            <div class="col-md-12">
+
+                                <form>
+                                    
+                                    <div class="form-group">
+                                    
+                                        <label for="exampleFormControlInput1">Name</label>
+                                    
+                                        <input type="name" class="form-control" id="exampleInputEmail1" placeholder="John Smith" required>
+                                    
+                                    </div>
+
+                                    <div class="form-group">
+                                        
+                                        <label for="exampleFormControlInput1">Email address</label>
+                                        
+                                        <input type="email" class="form-control" id="exampleFormControlEmail1" placeholder="name@example.com" required>
+                                    
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                    
+                                        <label for="exampleFormControlTextarea1">Message</label>
+                                    
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                                    
+                                    </div>
+
+                                    <button type="Submit" class="mb-2">Submit</button>
+                                
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </main>
 
         </div>
 
