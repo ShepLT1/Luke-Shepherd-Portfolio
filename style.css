@@ -41,7 +41,7 @@ h1 {
     color: rgb(233, 231, 231);
     font-size: 200%;
     height: 40px;
-    width: 245px;
+    width: 235px;
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 15px;
@@ -291,13 +291,19 @@ button {
 
     .port-img-col {
 
-        max-width: 97%;
+        max-width: 45.5%;
 
     }
 
     .text-box {
 
         height: 25%;
+
+    }
+
+    .text {
+
+        font-size: 175%;
 
     }
 
@@ -350,7 +356,187 @@ button {
 
     .text {
 
-        font-size: 225%;
+        font-size: 150%;
+
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .dropleft {
+
+        display: block;
+    
+    }
+
+    nav {
+
+        display: none;
+
+    }
+
+    .content-container {
+
+        width: 97%;
+
+    }
+
+    .profile-pic {
+
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .portfolio-row {
+
+        flex-wrap: wrap;
+
+    }
+
+    .port-img-col {
+
+        max-width: 97%;
+
+    }
+
+    .text-box {
+
+        height: 25%;
+
+    }
+
+    .text {
+
+        font-size: 175%;
+
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .dropleft {
+
+        display: block;
+    
+    }
+
+    nav {
+
+        display: none;
+
+    }
+
+    .content-container {
+
+        width: 97%;
+
+    }
+
+    .profile-pic {
+
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .portfolio-row {
+
+        flex-wrap: wrap;
+
+    }
+
+    .port-img-col {
+
+        max-width: 97%;
+
+    }
+
+    .text-box {
+
+        height: 25%;
+
+    }
+
+    .text {
+
+        font-size: 150%;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .nav-col {
+
+        padding-left: 0;
+
+    }
+
+    h1 {
+
+        font-size: 180%;
+        width: 210px;
+        height: 35px;
+
+    }
+
+    h2 {
+
+        font-size: 180%;
+
+    }
+
+    .dropleft {
+
+        display: block;
+        width: 42px;
+    
+    }
+
+    nav {
+
+        display: none;
+
+    }
+
+    .content-container {
+
+        width: 97%;
+
+    }
+
+    .profile-pic {
+
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .portfolio-row {
+
+        flex-wrap: wrap;
+
+    }
+
+    .port-img-col {
+
+        max-width: 97%;
+
+    }
+
+    .text-box {
+
+        height: 25%;
+
+    }
+
+    .text {
+
+        font-size: 125%;
 
     }
 
