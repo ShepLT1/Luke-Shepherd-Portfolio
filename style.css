@@ -1,8 +1,14 @@
 body {
 
     background-color: rgb(71, 71, 71);
-    height: 100%;
 
+}
+
+.main-container {
+
+    min-height: 100vh;
+    width: 100%;
+    
 }
 
 header,footer {
@@ -17,10 +23,12 @@ header,footer {
 
 }
 
-.border-top {
+footer {
 
+    display: flex;
+    justify-content: center;
     border-bottom: none;
-    border-top: rgb(110, 1, 1) 10px groove;
+    border-top: rgb(110, 1, 1) 2px groove;
 
 }
 
@@ -97,7 +105,7 @@ nav a:hover {
 
     background-color: rgb(34, 34, 34);
     border: rgb(110, 1, 1) 2px ridge;
-    margin: 30px 0 60px 1.5%;
+    margin: 30px 0 30px 1.5%;
     width: 600px;
 
 }
@@ -268,6 +276,13 @@ button {
     .content-container {
 
         width: 97%;
+
+    }
+
+    .profile-pic {
+
+        width: 100%;
+        margin-bottom: 30px;
 
     }
 
