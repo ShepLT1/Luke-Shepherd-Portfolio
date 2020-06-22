@@ -93,14 +93,39 @@ nav a:hover {
 
     display: none;
     float: right;
-    width: 50px;
+    width: 40px;
 
 }
 
-.dropleft img {
+.dropdown-img {
 
     border: rgb(175, 139, 40) 1px solid;
     background-color: rgb(71, 71, 71);
+    width: 100%;
+    border-radius: 10%;
+
+}
+
+.btn {
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+
+}
+
+.btn:hover {
+
+    transform:scale(1.1);
+
+}
+
+.btn:focus {
+
+    outline: none;
+    box-shadow: none;
 
 }
 
@@ -733,7 +758,7 @@ button {
     .dropleft {
 
         display: block;
-        width: 42px;
+        width: 35px;
     
     }
 
