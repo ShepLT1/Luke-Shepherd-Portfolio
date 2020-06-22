@@ -323,6 +323,13 @@ button {
 
 }
 
+button:focus {
+
+    outline: none;
+    box-shadow: 0 0 3px 1px rgb(233, 231, 231);
+
+}
+
 @media screen and (max-width: 768px) {
 
     .content-container {
