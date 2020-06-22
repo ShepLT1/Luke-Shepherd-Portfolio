@@ -1,11 +1,19 @@
+html {
+
+    height: 100%;
+
+}
+
 body {
 
     background-color: rgb(71, 71, 71);
+    height: 100%;
 
 }
 
 .page-container {
 
+    position: relative;
     min-height: 100vh;
     width: 100%;
     
@@ -30,6 +38,9 @@ footer {
     justify-content: center;
     border-bottom: none;
     border-top: rgb(110, 1, 1) 2px groove;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
 }
 
@@ -123,6 +134,12 @@ nav a:hover {
 .no-right-padding {
 
     padding-right: 0;
+
+}
+
+main {
+
+    padding-bottom: 80px;
 
 }
 
@@ -303,7 +320,7 @@ button {
 
     .text {
 
-        font-size: 175%;
+        font-size: 150%;
 
     }
 
@@ -356,13 +373,128 @@ button {
 
     .text {
 
-        font-size: 150%;
+        font-size: 250%;
+
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    
+    body {
+
+        background-color: rgb(34, 34, 34);
+
+    }
+    
+    .dropleft {
+
+        display: block;
+    
+    }
+
+    nav {
+
+        display: none;
+
+    }
+
+    .content-container {
+
+        width: 100vw;
+        margin: 0 0 30px -15px;
+        position: relative;
+        border: none;
+
+    }
+
+    .title-row {
+
+        margin: 0;
+
+    }
+
+    h2 {
+
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .about-p1 {
+
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .about-p2 {
+
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .content-row {
+
+        margin: 0;
+
+    }
+
+    form {
+
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .profile-pic {
+
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .portfolio-row {
+
+        flex-wrap: wrap;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 10px 0 0 0;
+
+    }
+
+    .port-img-col {
+
+        max-width: 97%;
+
+    }
+
+    .text-box {
+
+        height: 25%;
+
+    }
+
+    .text {
+
+        font-size: 225%;
 
     }
 
 }
 
 @media screen and (max-width: 425px) {
+
+    body {
+
+        background-color: rgb(34, 34, 34);
+
+    }
 
     .dropleft {
 
@@ -378,7 +510,54 @@ button {
 
     .content-container {
 
-        width: 97%;
+        width: 100vw;
+        margin: 0 0 30px -15px;
+        position: relative;
+        border: none;
+
+    }
+
+    .title-row {
+
+        margin: 0;
+
+    }
+
+    h2 {
+
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .about-p1 {
+
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .about-p2 {
+
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .content-row {
+
+        margin: 0;
+
+    }
+
+    form {
+
+        margin-left: 5px;
+        margin-right: 5px;
 
     }
 
@@ -392,6 +571,9 @@ button {
     .portfolio-row {
 
         flex-wrap: wrap;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 10px 0 0 0;
 
     }
 
@@ -417,6 +599,12 @@ button {
 
 @media screen and (max-width: 375px) {
 
+    body {
+
+        background-color: rgb(34, 34, 34);
+
+    }
+    
     .dropleft {
 
         display: block;
@@ -431,7 +619,54 @@ button {
 
     .content-container {
 
-        width: 97%;
+        width: 100vw;
+        margin: 0 0 30px -15px;
+        position: relative;
+        border: none;
+
+    }
+
+    .title-row {
+
+        margin: 0;
+
+    }
+
+    h2 {
+
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .about-p1 {
+
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .about-p2 {
+
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .content-row {
+
+        margin: 0;
+
+    }
+
+    form {
+
+        margin-left: 5px;
+        margin-right: 5px;
 
     }
 
@@ -445,6 +680,9 @@ button {
     .portfolio-row {
 
         flex-wrap: wrap;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 10px 0 0 0;
 
     }
 
@@ -470,9 +708,9 @@ button {
 
 @media screen and (max-width: 320px) {
 
-    .nav-col {
+    body {
 
-        padding-left: 0;
+        background-color: rgb(34, 34, 34);
 
     }
 
@@ -487,6 +725,8 @@ button {
     h2 {
 
         font-size: 180%;
+        margin-left: 5px;
+        margin-right: 5px;
 
     }
 
@@ -497,6 +737,12 @@ button {
     
     }
 
+    .nav-col {
+
+        padding-left: 0;
+
+    }
+
     nav {
 
         display: none;
@@ -505,7 +751,47 @@ button {
 
     .content-container {
 
-        width: 97%;
+        width: 100vw;
+        margin: 0 0 30px -15px;
+        position: relative;
+        border: none;
+
+    }
+
+    .title-row {
+
+        margin: 0;
+
+    }
+
+    .about-p1 {
+
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .about-p2 {
+
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .content-row {
+
+        margin: 0;
+
+    }
+
+    form {
+
+        margin-left: 5px;
+        margin-right: 5px;
 
     }
 
@@ -519,6 +805,9 @@ button {
     .portfolio-row {
 
         flex-wrap: wrap;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 10px 0 0 0;
 
     }
 
