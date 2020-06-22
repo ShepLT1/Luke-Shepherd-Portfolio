@@ -1,15 +1,10 @@
-html {
-
-    height: 100%;
-
-}
-
 body {
 
     background-color: rgb(71, 71, 71);
-    height: 100%;
 
 }
+
+/* Webpage container styling */
 
 .page-container {
 
@@ -18,7 +13,6 @@ body {
     width: 100%;
     
 }
-
 
 header,footer {
 
@@ -32,6 +26,7 @@ header,footer {
 
 }
 
+
 footer {
 
     display: flex;
@@ -44,6 +39,7 @@ footer {
 
 }
 
+/* Website title styling */
 
 h1 {
 
@@ -61,12 +57,16 @@ h1 {
 
 }
 
+/* Whole navigation bar styling */
+
 nav {
 
     width: 265px;
     float: right;
 
 }
+
+/* Nav bar options styling */
 
 nav li {
 
@@ -77,17 +77,23 @@ nav li {
 
 }
 
+/* Nav bar link text color */
+
 nav a {
 
     color: rgb(233, 231, 231);
 
 }
 
+/* Nav bar link text color when hovering */
+
 nav a:hover {
 
     color: rgb(201, 170, 87);
 
 }
+
+/* Dropdown container styling */
 
 .dropleft {
 
@@ -97,6 +103,8 @@ nav a:hover {
 
 }
 
+/* Dropdown image (within button) styling */
+
 .dropdown-img {
 
     border: rgb(175, 139, 40) 1px solid;
@@ -105,6 +113,8 @@ nav a:hover {
     border-radius: 10%;
 
 }
+
+/* Dropdown button styling */
 
 .btn {
 
@@ -116,11 +126,15 @@ nav a:hover {
 
 }
 
+/* Dropdown button styling while hovering */
+
 .btn:hover {
 
     transform:scale(1.1);
 
 }
+
+/* Dropdown button styling while holding down click */
 
 .btn:focus {
 
@@ -128,6 +142,8 @@ nav a:hover {
     box-shadow: none;
 
 }
+
+/* Dropdown menu styling */
 
 .dropdown-menu {
 
@@ -137,11 +153,15 @@ nav a:hover {
 
 }
 
+/* Dropdown menu link styling */
+
 .dropdown-menu a {
 
     color: rgb(233, 231, 231);
 
 }
+
+/* Dropdown menu link styling while hovering */
 
 .dropdown-menu a:hover {
 
@@ -150,11 +170,15 @@ nav a:hover {
 
 }
 
+/* Removes line on right of contact option of nav bar */
+
 .no-border {
 
     border: none !important;
 
 }
+
+/* Removes right padding of contact option of nav bar */
 
 .no-right-padding {
 
@@ -162,11 +186,15 @@ nav a:hover {
 
 }
 
+/* Adds padding at bottom of main content container to accomodate footer */
+
 main {
 
     padding-bottom: 80px;
 
 }
+
+/* About Me, Portfolio, and Contact form container styling */
 
 .content-container {
 
@@ -177,6 +205,8 @@ main {
 
 }
 
+/* About Me, Portfolio, and Contact form title styling */
+
 h2 {
 
     color: rgb(233, 231, 231);
@@ -186,17 +216,23 @@ h2 {
 
 }
 
+/* About Me first paragraph and profile pic container styling */
+
 .about-p1 {
 
     margin: 0 15px;
 
 }
 
+/* About Me second paragraph and container styling */
+
 .about-p2 {
 
     margin: 20px 15px 50px 15px;
 
 }
+
+/* About me profil pic styling */
 
 .profile-pic {
 
@@ -215,12 +251,16 @@ p {
 
 }
 
+/* Prevents nav from wrapping underneath site title */
+
 .no-wrap {
 
     display: flex;
     flex-wrap: nowrap;
 
 }
+
+/* Styling for portfolio row container */
 
 .portfolio-row {
 
@@ -229,11 +269,15 @@ p {
 
 }
 
+/* Portfolio image styling */
+
 .col-md-6 img {
 
     width: 100%;
 
 }
+
+/* Portfolio image container styling */
 
 .port-img-col {
 
@@ -246,11 +290,15 @@ p {
 
 }
 
+/* Adds margin to top of first portfolio image row */
+
 .margin-top {
 
     margin-top: 10px;
 
 }
+
+/* Poftolio image text box styling */
 
 .text-box {
 
@@ -265,6 +313,8 @@ p {
 
 }
 
+/* Poftolio image text styling */
+
 .text {
 
     color: rgb(233, 231, 231);
@@ -274,6 +324,8 @@ p {
 
 }
 
+/* Contact form row container styling */
+
 .content-row {
 
     width: 100%;
@@ -281,12 +333,16 @@ p {
 
 }
 
+/* Contact form styling */
+
 form {
 
     color: rgb(233, 231, 231);
     margin: 0 15px 20px 15px;
 
 }
+
+/* Contact form input styling */
 
 .form-control {
 
@@ -296,6 +352,8 @@ form {
 
 }
 
+/* Contact form input styling when typing */
+
 .form-control:valid {
 
     background-color: rgb(53, 53, 53);
@@ -304,6 +362,8 @@ form {
 
 }
 
+/* Contact form input styling when focused */
+
 .form-control:focus {
 
     background-color: rgb(53, 53, 53);
@@ -311,6 +371,8 @@ form {
     box-shadow: 0 0 2px 2px black;
 
 }
+
+/* Contact form submit button styling */
 
 button {
 
@@ -323,6 +385,8 @@ button {
 
 }
 
+/* Contact form submit button styling when focused*/
+
 button:focus {
 
     outline: none;
@@ -330,7 +394,11 @@ button:focus {
 
 }
 
+/* Page responsiveness at 768px */
+
 @media screen and (max-width: 768px) {
+
+    /* About Me, Portfolio, Contact container styling at 768px */
 
     .content-container {
 
@@ -338,17 +406,23 @@ button:focus {
 
     }
 
+    /* Portfolio image container styling at 768px */
+
     .port-img-col {
 
         max-width: 45.5%;
 
     }
 
+    /* Portfolio image text box styling at 768px */
+
     .text-box {
 
         height: 25%;
 
     }
+
+    /* Portfolio image text styling at 768px */
 
     .text {
 
@@ -358,13 +432,19 @@ button:focus {
 
 }
 
+/* Page responsiveness at 640px */
+
 @media screen and (max-width: 640px) {
 
+    /* Dropdown button displays at 640px */
+    
     .dropleft {
 
         display: block;
     
     }
+
+    /* Nav options hide at 640px */
 
     nav {
 
@@ -372,11 +452,15 @@ button:focus {
 
     }
 
+    /* About Me, Portfolio, Contact container styling at 640px */
+
     .content-container {
 
         width: 97%;
 
     }
+
+    /* About Me profile pic styling at 640px */
 
     .profile-pic {
 
@@ -385,11 +469,15 @@ button:focus {
 
     }
 
+    /* Portfolio row container styling at 640px */
+
     .portfolio-row {
 
         flex-wrap: wrap;
 
     }
+
+    /* Portfolio image container styling at 640px */
 
     .port-img-col {
 
@@ -397,11 +485,15 @@ button:focus {
 
     }
 
+    /* Portfolio image text box styling at 640px */
+
     .text-box {
 
         height: 25%;
 
     }
+
+    /* Portfolio image text styling at 640px */
 
     .text {
 
@@ -411,13 +503,19 @@ button:focus {
 
 }
 
+/* Page responsiveness at 576px */
+
 @media screen and (max-width: 576px) {
+
+    /* Body styling at 576px */
     
     body {
 
         background-color: rgb(34, 34, 34);
 
     }
+
+    /* Dropdown button displays at 576px */
     
     .dropleft {
 
@@ -425,11 +523,15 @@ button:focus {
     
     }
 
+    /* Nav options hide at 576px */
+
     nav {
 
         display: none;
 
     }
+
+    /* About Me, Portfolio, Contact container styling at 576px */
 
     .content-container {
 
@@ -440,11 +542,15 @@ button:focus {
 
     }
 
+    /* About Me, Portfolio, Contact title containers styling at 576px */
+
     .title-row {
 
         margin: 0;
 
     }
+
+    /* About Me, Portfolio, Contact titles styling at 576px */
 
     h2 {
 
@@ -452,6 +558,8 @@ button:focus {
         margin-right: 5px;
 
     }
+
+    /* About Me first paragraph and profile pic container styling at 576px */
 
     .about-p1 {
 
@@ -462,6 +570,8 @@ button:focus {
 
     }
 
+    /* About Me second paragraph container styling at 576px */
+
     .about-p2 {
 
         margin-right: 0;
@@ -471,11 +581,15 @@ button:focus {
 
     }
 
+    /* Contact form row container styling at 576px */
+
     .content-row {
 
         margin: 0;
 
     }
+
+    /* Contact form styling at 576px */
 
     form {
 
@@ -484,12 +598,16 @@ button:focus {
 
     }
 
+    /* About Me profile pic styling at 576px */
+
     .profile-pic {
 
         width: 100%;
         margin-bottom: 30px;
 
     }
+
+    /* Portfolio row container styling at 576px */
 
     .portfolio-row {
 
@@ -500,17 +618,23 @@ button:focus {
 
     }
 
+    /* Portfolio image container styling at 576px */
+
     .port-img-col {
 
         max-width: 97%;
 
     }
 
+    /* Portfolio image text box styling at 576px */
+
     .text-box {
 
         height: 25%;
 
     }
+
+    /* Portfolio image text styling at 576px */
 
     .text {
 
@@ -520,25 +644,35 @@ button:focus {
 
 }
 
+/* Page responsiveness at 425px */
+
 @media screen and (max-width: 425px) {
 
+    /* Body styling at 425px */
+    
     body {
 
         background-color: rgb(34, 34, 34);
 
     }
 
+    /* Dropdown button displays at 425px */
+    
     .dropleft {
 
         display: block;
     
     }
 
+    /* Nav options hide at 425px */
+
     nav {
 
         display: none;
 
     }
+
+    /* About Me, Portfolio, Contact container styling at 425px */
 
     .content-container {
 
@@ -549,11 +683,15 @@ button:focus {
 
     }
 
+    /* About Me, Portfolio, Contact title containers styling at 425px */
+
     .title-row {
 
         margin: 0;
 
     }
+
+    /* About Me, Portfolio, Contact titles styling at 425px */
 
     h2 {
 
@@ -561,6 +699,8 @@ button:focus {
         margin-right: 5px;
 
     }
+
+    /* About Me first paragraph and profile pic container styling at 425px */
 
     .about-p1 {
 
@@ -571,6 +711,8 @@ button:focus {
 
     }
 
+    /* About Me second paragraph container styling at 425px */
+
     .about-p2 {
 
         margin-right: 0;
@@ -580,11 +722,15 @@ button:focus {
 
     }
 
+    /* Contact form row container styling at 425px */
+
     .content-row {
 
         margin: 0;
 
     }
+
+    /* Contact form styling at 425px */
 
     form {
 
@@ -593,12 +739,16 @@ button:focus {
 
     }
 
+    /* About Me profile pic styling at 425px */
+
     .profile-pic {
 
         width: 100%;
         margin-bottom: 30px;
 
     }
+
+    /* Portfolio row container styling at 425px */
 
     .portfolio-row {
 
@@ -609,17 +759,23 @@ button:focus {
 
     }
 
+    /* Portfolio image container styling at 425px */
+
     .port-img-col {
 
         max-width: 97%;
 
     }
 
+    /* Portfolio image text box styling at 425px */
+
     .text-box {
 
         height: 25%;
 
     }
+
+    /* Portfolio image text styling at 425px */
 
     .text {
 
@@ -629,13 +785,19 @@ button:focus {
 
 }
 
+/* Page responsiveness at 375px */
+
 @media screen and (max-width: 375px) {
 
+    /* Body styling at 375pxpx */
+    
     body {
 
         background-color: rgb(34, 34, 34);
 
     }
+
+    /* Dropdown button displays at 375px */
     
     .dropleft {
 
@@ -643,11 +805,15 @@ button:focus {
     
     }
 
+    /* Nav options hide at 375px */
+
     nav {
 
         display: none;
 
     }
+
+    /* About Me, Portfolio, Contact container styling at 375px */
 
     .content-container {
 
@@ -658,11 +824,15 @@ button:focus {
 
     }
 
+    /* About Me, Portfolio, Contact title containers styling at 375px */
+
     .title-row {
 
         margin: 0;
 
     }
+
+    /* About Me, Portfolio, Contact titles styling at 375px */
 
     h2 {
 
@@ -670,6 +840,8 @@ button:focus {
         margin-right: 5px;
 
     }
+
+    /* About Me first paragraph and profile pic container styling at 375px */
 
     .about-p1 {
 
@@ -680,6 +852,8 @@ button:focus {
 
     }
 
+    /* About Me second paragraph container styling at 375px */
+
     .about-p2 {
 
         margin-right: 0;
@@ -689,11 +863,15 @@ button:focus {
 
     }
 
+    /* Contact form row container styling at 375px */
+
     .content-row {
 
         margin: 0;
 
     }
+
+    /* Contact form styling at 375px */
 
     form {
 
@@ -702,12 +880,16 @@ button:focus {
 
     }
 
+    /* About Me profile pic styling at 375px */
+
     .profile-pic {
 
         width: 100%;
         margin-bottom: 30px;
 
     }
+
+    /* Portfolio row container styling at 375px */
 
     .portfolio-row {
 
@@ -718,17 +900,23 @@ button:focus {
 
     }
 
+    /* Portfolio image container styling at 375px */
+
     .port-img-col {
 
         max-width: 97%;
 
     }
 
+    /* Portfolio image text box styling at 375px */
+
     .text-box {
 
         height: 25%;
 
     }
+
+    /* Portfolio image text styling at 375px */
 
     .text {
 
@@ -738,13 +926,19 @@ button:focus {
 
 }
 
+/* Page responsiveness at 320px */
+
 @media screen and (max-width: 320px) {
+
+    /* Body styling at 320px */
 
     body {
 
         background-color: rgb(34, 34, 34);
 
     }
+
+    /* Site title styling at 320px */
 
     h1 {
 
@@ -754,6 +948,8 @@ button:focus {
 
     }
 
+    /* About Me, Portfolio, Contact titles styling at 320px */
+
     h2 {
 
         font-size: 180%;
@@ -762,6 +958,8 @@ button:focus {
 
     }
 
+    /* Dropdown button displays at 320px */
+
     .dropleft {
 
         display: block;
@@ -769,17 +967,15 @@ button:focus {
     
     }
 
-    .nav-col {
-
-        padding-left: 0;
-
-    }
+    /* Nav options hide at 375px */
 
     nav {
 
         display: none;
 
     }
+
+    /* About Me, Portfolio, Contact container styling at 375px */
 
     .content-container {
 
@@ -790,11 +986,15 @@ button:focus {
 
     }
 
+    /* About Me, Portfolio, Contact title containers styling at 375px */
+
     .title-row {
 
         margin: 0;
 
     }
+
+    /* About Me first paragraph and profile pic container styling at 375px */
 
     .about-p1 {
 
@@ -805,6 +1005,8 @@ button:focus {
 
     }
 
+    /* About Me second paragraph container styling at 375px */
+
     .about-p2 {
 
         margin-right: 0;
@@ -814,11 +1016,15 @@ button:focus {
 
     }
 
+    /* Contact form row container styling at 375px */
+
     .content-row {
 
         margin: 0;
 
     }
+
+    /* Contact form styling at 375px */
 
     form {
 
@@ -827,12 +1033,16 @@ button:focus {
 
     }
 
+    /* About Me profile pic styling at 375px */
+
     .profile-pic {
 
         width: 100%;
         margin-bottom: 30px;
 
     }
+
+    /* Portfolio row container styling at 375px */
 
     .portfolio-row {
 
@@ -843,17 +1053,23 @@ button:focus {
 
     }
 
+    /* Portfolio image container styling at 375px */
+
     .port-img-col {
 
         max-width: 97%;
 
     }
 
+    /* Portfolio image text box styling at 375px */
+
     .text-box {
 
         height: 25%;
 
     }
+
+    /* Portfolio image text styling at 375px */
 
     .text {
 
