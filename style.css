@@ -235,8 +235,7 @@ aside a:hover {
 
 #links-container {
 
-    padding-left: 30px;
-    padding-bottom: 30px;
+    padding: 0 15px 30px 15px;
 
 }
 
@@ -252,12 +251,18 @@ aside a:hover {
 
 }
 
+.title-row {
+
+    margin: 0;
+
+}
+
 /* About Me, Portfolio, and Contact form title styling */
 
 h2 {
 
     color: rgb(233, 231, 231);
-    margin: 25px 30px 25px 30px;
+    margin: 25px 15px;
     padding-bottom: 25px;
     border-bottom: rgb(194, 159, 63) 2px groove;
 
@@ -316,6 +321,12 @@ p {
 
 }
 
+.portfolio-row img {
+
+    border: rgb(51, 0, 0) 3px ridge;
+
+}
+
 /* Portfolio image styling */
 
 .col-md-6 img {
@@ -328,12 +339,38 @@ p {
 
 .port-img-col {
 
-    display: flex;
-    justify-content: center;
     padding: 0;
     margin: 0 15px 35px 15px;
     width: 100%;
     max-width: 253px;
+    color: rgb(233, 231, 231);
+
+}
+
+.port-img-col a {
+
+    color: rgb(233, 231, 231);
+
+}
+
+.port-img-col a:hover {
+
+    color: rgb(194, 159, 63);
+    text-decoration: none;
+
+}
+
+#repo-title {
+
+    border-bottom: rgb(194, 159, 63) 2px groove;
+    padding-bottom: 10px;
+    padding-top: 5px;
+
+}
+
+.repo-links {
+
+    padding-left: 10px;
 
 }
 
@@ -357,6 +394,8 @@ p {
     display: flex;
     align-self: flex-end;
     justify-content: center;
+    border-left: rgb(51, 0, 0) 3px ridge;
+    border-right: rgb(51, 0, 0) 3px ridge;
 
 }
 
@@ -385,7 +424,7 @@ p {
 form {
 
     color: rgb(233, 231, 231);
-    margin: 0 15px 20px 15px;
+    margin-bottom: 20px;
 
 }
 
