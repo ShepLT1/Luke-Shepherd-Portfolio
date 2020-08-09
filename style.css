@@ -1,6 +1,7 @@
-body {
+html, body {
 
     background-color: rgb(71, 71, 71);
+    height: 100%;
 
 }
 
@@ -9,7 +10,7 @@ body {
 .page-container {
 
     position: relative;
-    min-height: 100vh;
+    min-height: 100%;
     width: 100%;
     
 }
@@ -23,6 +24,12 @@ header,footer {
     align-items: center;
     padding: 0 1.5%;
     margin: 0;
+
+}
+
+header {
+
+    margin-bottom: 30px;
 
 }
 
@@ -191,6 +198,45 @@ nav a:hover {
 main {
 
     padding-bottom: 80px;
+    display: block;
+
+}
+
+aside {
+
+    display: flex;
+    float: right;
+    max-width: 350px;
+    margin-right: 1.5%;
+    min-height: 200px;
+    
+}
+
+aside a {
+
+    color: rgb(233, 231, 231);
+
+}
+
+/* Nav bar link text color when hovering */
+
+aside a:hover {
+
+    color: rgb(201, 170, 87);
+    text-decoration: none;
+
+}
+
+#contact-container {
+
+    float: left;
+
+}
+
+#links-container {
+
+    padding-left: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -200,7 +246,8 @@ main {
 
     background-color: rgb(34, 34, 34);
     border: rgb(110, 1, 1) 2px ridge;
-    margin: 30px 0 30px 1.5%;
+    margin-bottom: 30px;
+    margin-left: 1.5%;
     width: 600px;
 
 }
@@ -394,6 +441,23 @@ button:focus {
 
 }
 
+@media screen and (max-width: 1040px) {
+
+    aside {
+
+        max-width: 100%;
+        float: left;
+
+    }
+
+    .title-row {
+
+        width: 100%;
+
+    }
+
+}
+
 /* Page responsiveness at 768px */
 
 @media screen and (max-width: 768px) {
@@ -515,6 +579,12 @@ button:focus {
 
     }
 
+    header {
+
+        margin-bottom: 0;
+
+    }
+
     /* Dropdown button displays at 576px */
     
     .dropleft {
@@ -536,7 +606,8 @@ button:focus {
     .content-container {
 
         width: 100vw;
-        margin: 0 0 30px -15px;
+        margin-left: -15px;
+        margin-bottom: 0;
         position: relative;
         border: none;
 
@@ -640,6 +711,20 @@ button:focus {
 
         font-size: 225%;
 
+    }
+
+    aside {
+
+        width: 100%;
+        max-width: none;
+
+    }
+
+    #links-container {
+
+        padding-left: 20px;
+        padding-bottom: 50px;
+    
     }
 
 }
