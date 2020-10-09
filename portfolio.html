@@ -2,276 +2,296 @@
 
 <html lang="en-us">
 
-    <head>
+<head>
 
-        <meta charset="UTF-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
 
-        <title>Portfolio | Luke Shepherd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Boostrap CSS stylesheet -->
+    <title>Portfolio | Luke Shepherd</title>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Boostrap CSS stylesheet -->
 
-        <!-- Site-specific CSS stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="style.css">
+    <!-- Site-specific CSS stylesheet -->
 
-    </head>
+    <link rel="stylesheet" href="style.css">
 
-    <body>
+</head>
 
-        <!-- Webpage container -->
+<body>
 
-        <div class="container-fluid page-container">
+    <!-- Webpage container -->
 
-            <!-- Header with site title and nav bar -->
+    <div class="container-fluid page-container">
 
-            <header class="row no-wrap">
+        <!-- Header with site title and nav bar -->
 
-                <!-- Column containing site title -->
+        <header class="row no-wrap">
 
-                <div class="col-md-6">
+            <!-- Column containing site title -->
 
-                    <h1>Luke Shepherd</h1>
+            <div class="col-md-6">
+
+                <h1>Luke Shepherd</h1>
+
+            </div>
+
+            <!-- Column containing nav bar -->
+
+            <div class="col-md-6 nav-col">
+
+                <!-- Navigation bar -->
+
+                <nav>
+
+                    <!-- Navigation bar options -->
+
+                    <ul class="nav justify-content-end">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+
+                        <li class="nav-item no-border">
+                            <a class="nav-link no-right-padding" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                <!-- Navigation dropdown button/menu (hidden until at or below 640px) -->
+
+                <div class="btn-group dropleft">
+
+                    <!-- Navigation dropdown button -->
+
+                    <button type="submit" class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false"><img src="Assets/Images/dropdown-icon.png" class="dropdown-img"
+                            alt="dropdown menu icon"></button>
+
+                    <!-- Navigation dropdown menu -->
+
+                    <div class="dropdown-menu">
+
+                        <a class="dropdown-item" href="index.html">About</a>
+
+                        <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+
+                        <a class="dropdown-item" href="contact.html">Contact</a>
+
+                    </div>
 
                 </div>
 
-                <!-- Column containing nav bar -->
+            </div>
 
-                <div class="col-md-6 nav-col">
+        </header>
 
-                    <!-- Navigation bar -->
+        <!-- Main content section -->
 
-                    <nav>
+        <main>
 
-                        <!-- Navigation bar options -->
+            <!-- Main content container -->
 
-                        <ul class="nav justify-content-end">
+            <article class="content-container">
 
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">About</a>
-                            </li>
+                <!-- Portfolio title container -->
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
+                <div class="row title-row">
 
-                            <li class="nav-item no-border">
-                                <a class="nav-link no-right-padding" href="contact.html">Contact</a>
-                            </li>
+                    <div class="col-md-12">
 
-                        </ul>
-
-                    </nav>
-
-                    <!-- Navigation dropdown button/menu (hidden until at or below 640px) -->
-                        
-                    <div class="btn-group dropleft">
-
-                        <!-- Navigation dropdown button -->
-                        
-                        <button type="submit" class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="Assets/Images/dropdown-icon.png" class="dropdown-img" alt="dropdown menu icon"></button>
-
-                        <!-- Navigation dropdown menu -->
-                        
-                        <div class="dropdown-menu">
-                            
-                            <a class="dropdown-item" href="index.html">About</a>
-                        
-                            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                            
-                            <a class="dropdown-item" href="contact.html">Contact</a>
-                        
-                        </div>
+                        <h2>Portfolio</h2>
 
                     </div>
 
                 </div>
 
-            </header>
+                <!-- Row container for Portfolio images 1 & 2 -->
 
-            <!-- Main content section -->
+                <div class="row portfolio-row margin-top">
 
-            <main>
+                    <!-- Portfolio image 1 container -->
 
-                <!-- Main content container -->
+                    <section class="col-md-6 port-img-col">
 
-                <article class="content-container">
+                        <a href="https://breakaway-vacay.herokuapp.com/" target="_blank">
 
-                    <!-- Portfolio title container -->
+                            <!-- Portfolio image 1 -->
 
-                    <div class="row title-row">
-
-                        <div class="col-md-12">
-
-                            <h2>Portfolio</h2>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Row container for Portfolio images 1 & 2 -->
-
-                    <div class="row portfolio-row margin-top">
-
-                        <!-- Portfolio image 1 container -->
-
-                        <section class="col-md-6 port-img-col">
-
-                            <a href="https://sheplt1.github.io/hows-the-weather/" target="_blank">
-
-                                <!-- Portfolio image 1 -->
-
-                                <img src="Assets/Images/weather-forecast.png" alt="Weather Forecaster Thumbnail">
-
-                                <!-- Portfolio image text box -->
-
-                                <div class="text-box">
-
-                                    <p class="text">Weather Forecaster</p>
-
-                                </div>
-
-                            </a>
-
-                        </section>
-
-                        <!-- Portfolio image 2 container -->
-
-                        <section class="col-md-6 port-img-col">
-
-                            <a href="https://sheplt1.github.io/covid-tracker/" target="_blank">
-
-                                <!-- Portfolio image 2 -->
-
-                                <img src="Assets/Images/covid-tracker.png" alt="COVID-19 Tracker Thumbnail">
-
-                                <!-- Portfolio image text box -->
-
-                                <div class="text-box">
-
-                                    <p class="text">COVID-19 Tracker</p>
-
-                                </div>
-
-                            </a>
-
-                        </section>
-
-                    </div>
-
-                    <div class="row portfolio-row">
-
-                        <!-- Portfolio image 3 container -->
-
-                        <section class="col-md-6 port-img-col">
-
-                            <a href="https://sheplt1.github.io/Day-Planner/" target="_blank">
-
-                                <!-- Portfolio image 3 -->
-
-                                <img src="Assets/Images/day-planner.png" alt="Day Planner Thumbnail">
-
-                                <!-- Portfolio image text box -->
-
-                                <div class="text-box">
-
-                                    <p class="text">Day Planner</p>
-
-                                </div>
-
-                            </a>
-
-                        </section>
-
-                        <!-- Portfolio image 4 container -->
-
-                        <section class="col-md-6 port-img-col">
-
-                            <a href="https://sheplt1.github.io/Password-Generator/" target="_blank">
-
-                                <!-- Portfolio image 4 -->
-
-                                <img src="Assets/Images/password-generator.png" alt="Password Generator Thumbnail">
-
-                                <!-- Portfolio image text box -->
-
-                                <div class="text-box">
-
-                                    <p class="text">Password Generator</p>
-
-                                </div>
-
-                            </a>
-                            
-                        </section>
-
-                    </div>
-
-                    <div class="row portfolio-row">
-
-                        <!-- Portfolio image 5 container -->
-
-                        <section class="col-md-6 port-img-col">
-
-                            <!-- Portfolio image 5 -->
-
-                            <img src="Assets/Images/sheev-spin.jpeg" alt="Chancellor Palapatine spinning through the air and screeching">
+                            <img src="Assets/Images/breakaway.png" alt="Breakaway Thumbnail">
 
                             <!-- Portfolio image text box -->
 
                             <div class="text-box">
 
-                                <p class="text">*in Sith* NYYAAA!</p>
+                                <p class="text">Breakaway</p>
 
                             </div>
 
-                        </section>
+                        </a>
 
-                        <!-- Portfolio Github Links Container -->
+                    </section>
 
-                        <section class="col-md-6 port-img-col">
+                    <!-- Portfolio image 2 container -->
 
-                            <!-- Portfolio Github Links -->
+                    <section class="col-md-6 port-img-col">
 
-                            <h4 id="repo-title">Github Repositories</h4>
+                        <a href="https://sheplt1.github.io/covid-tracker/" target="_blank">
 
-                            <p class="repo-links"><a href="https://github.com/ShepLT1/hows-the-weather" target="_blank">Weather Forecaster</a></p>
+                            <!-- Portfolio image 2 -->
 
-                            <p class="repo-links"><a href="https://github.com/ShepLT1/covid-tracker" target="_blank">COVID-19 Tracker</a></p>
+                            <img src="Assets/Images/covid-tracker.png" alt="COVID-19 Tracker Thumbnail">
 
-                            <p class="repo-links"><a href="https://github.com/ShepLT1/Day-Planner" target="_blank">Day Planner</a></p>
+                            <!-- Portfolio image text box -->
 
-                            <p class="repo-links"><a href="https://github.com/ShepLT1/Password-Generator" target="_blank">Password Generator</a></p>
+                            <div class="text-box">
 
-                        </section>
+                                <p class="text">COVID-19 Tracker</p>
 
-                    </div>
+                            </div>
 
-                </article>
+                        </a>
 
-            </main>
+                    </section>
 
-            <!-- Footer container -->
+                </div>
 
-            <footer class="row">
+                <div class="row portfolio-row">
 
-                <p>&copy; Copyright</p>
+                    <!-- Portfolio image 3 container -->
 
-            </footer>
+                    <section class="col-md-6 port-img-col">
 
-        </div>
+                        <a href="https://sheplt1.github.io/Day-Planner/" target="_blank">
 
-        <!-- Bootstrap responsive scripts used for navigation dropdown button/menu -->
+                            <!-- Portfolio image 3 -->
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                            <img src="Assets/Images/day-planner.png" alt="Day Planner Thumbnail">
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                            <!-- Portfolio image text box -->
 
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                            <div class="text-box">
 
-    </body>
+                                <p class="text">Day Planner</p>
+
+                            </div>
+
+                        </a>
+
+                    </section>
+
+                    <!-- Portfolio image 4 container -->
+
+                    <section class="col-md-6 port-img-col">
+
+                        <a href="https://sheplt1.github.io/Password-Generator/" target="_blank">
+
+                            <!-- Portfolio image 4 -->
+
+                            <img src="Assets/Images/password-generator.png" alt="Password Generator Thumbnail">
+
+                            <!-- Portfolio image text box -->
+
+                            <div class="text-box">
+
+                                <p class="text">Password Generator</p>
+
+                            </div>
+
+                        </a>
+
+                    </section>
+
+                </div>
+
+                <div class="row portfolio-row">
+
+                    <!-- Portfolio image 5 container -->
+
+                    <section class="col-md-6 port-img-col">
+
+                        <a href="https://sheplt1.github.io/hows-the-weather/" target="_blank">
+
+                            <!-- Portfolio image 1 -->
+
+                            <img src="Assets/Images/weather-forecast.png" alt="Weather Forecaster Thumbnail">
+
+                            <!-- Portfolio image text box -->
+
+                            <div class="text-box">
+
+                                <p class="text">Weather Forecaster</p>
+
+                            </div>
+
+                        </a>
+
+                    </section>
+
+                    <!-- Portfolio Github Links Container -->
+
+                    <section class="col-md-6 port-img-col">
+
+                        <!-- Portfolio Github Links -->
+
+                        <h4 id="repo-title">Github Repositories</h4>
+
+                        <p class="repo-links"><a href="https://github.com/MVC-5/breakaway" target="_blank">Breakaway</a>
+                        </p>
+
+                        <p class="repo-links"><a href="https://github.com/ShepLT1/covid-tracker"
+                                target="_blank">COVID-19 Tracker</a></p>
+
+                        <p class="repo-links"><a href="https://github.com/ShepLT1/Day-Planner" target="_blank">Day
+                                Planner</a></p>
+
+                        <p class="repo-links"><a href="https://github.com/ShepLT1/Password-Generator"
+                                target="_blank">Password Generator</a></p>
+
+                        <p class="repo-links"><a href="https://github.com/ShepLT1/hows-the-weather"
+                                target="_blank">Weather Forecaster</a></p>
+
+                    </section>
+
+                </div>
+
+            </article>
+
+        </main>
+
+        <!-- Footer container -->
+
+        <footer class="row">
+
+            <p>&copy; Copyright</p>
+
+        </footer>
+
+    </div>
+
+    <!-- Bootstrap responsive scripts used for navigation dropdown button/menu -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
 
 </html>
