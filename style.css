@@ -227,6 +227,12 @@ aside a:hover {
 
 }
 
+#about-container {
+
+    float: left;
+
+}
+
 #contact-container {
 
     float: left;
@@ -295,7 +301,7 @@ h2 {
 
 }
 
-p {
+p, li {
 
     color: rgb(233, 231, 231);
     margin-bottom: 0;
@@ -685,8 +691,10 @@ button:focus {
 
         margin-right: 0;
         margin-left: 0;
+        margin-bottom: 0;
         padding-right: 5px;
         padding-left: 5px;
+        padding-bottom: 35px;
 
     }
 
@@ -800,7 +808,7 @@ button:focus {
     .content-container {
 
         width: 100vw;
-        margin: 0 0 30px -15px;
+        margin: 0 0 0 -15px;
         position: relative;
         border: none;
 
@@ -820,28 +828,6 @@ button:focus {
 
         margin-left: 5px;
         margin-right: 5px;
-
-    }
-
-    /* About Me first paragraph and profile pic container styling at 425px */
-
-    .about-p1 {
-
-        margin-right: 0;
-        margin-left: 0;
-        padding-right: 5px;
-        padding-left: 5px;
-
-    }
-
-    /* About Me second paragraph container styling at 425px */
-
-    .about-p2 {
-
-        margin-right: 0;
-        margin-left: 0;
-        padding-right: 5px;
-        padding-left: 5px;
 
     }
 
@@ -941,7 +927,7 @@ button:focus {
     .content-container {
 
         width: 100vw;
-        margin: 0 0 30px -15px;
+        margin: 0 0 0 -15px;
         position: relative;
         border: none;
 
@@ -961,28 +947,6 @@ button:focus {
 
         margin-left: 5px;
         margin-right: 5px;
-
-    }
-
-    /* About Me first paragraph and profile pic container styling at 375px */
-
-    .about-p1 {
-
-        margin-right: 0;
-        margin-left: 0;
-        padding-right: 5px;
-        padding-left: 5px;
-
-    }
-
-    /* About Me second paragraph container styling at 375px */
-
-    .about-p2 {
-
-        margin-right: 0;
-        margin-left: 0;
-        padding-right: 5px;
-        padding-left: 5px;
 
     }
 
@@ -1103,7 +1067,7 @@ button:focus {
     .content-container {
 
         width: 100vw;
-        margin: 0 0 30px -15px;
+        margin: 0 0 0 -15px;
         position: relative;
         border: none;
 
@@ -1114,28 +1078,6 @@ button:focus {
     .title-row {
 
         margin: 0;
-
-    }
-
-    /* About Me first paragraph and profile pic container styling at 375px */
-
-    .about-p1 {
-
-        margin-right: 0;
-        margin-left: 0;
-        padding-right: 5px;
-        padding-left: 5px;
-
-    }
-
-    /* About Me second paragraph container styling at 375px */
-
-    .about-p2 {
-
-        margin-right: 0;
-        margin-left: 0;
-        padding-right: 5px;
-        padding-left: 5px;
 
     }
 
